@@ -19,7 +19,7 @@ start_file_name = 'start'
 json_file_name = 'pages_information'
 
 # number of paper for crawling
-_numOf_paper = 2000
+_numOf_paper = 320
 
 
 
