@@ -146,6 +146,9 @@ def crawling(start_file_name, json_file_name, _numOf_paper):
         if counter == _numOf_paper:
             flag = True
             break
+            
+        
+        # saving for 5 crawled papers
         elif counter%5 == 0:
             with open(json_file_name + '.json', mode='w', encoding='utf-8') as feedsjson:
                 json.dump(dict1, feedsjson, indent = 4)
