@@ -16,7 +16,7 @@ from Helper import crawling
 start_file_name = 'start_papers_URLs'
 
 # output file
-json_file_name = 'output_crawled'
+json_file_name = 'Output_Crawled_Sample'
 
 # number of paper for crawling
 _numOf_paper = 320
