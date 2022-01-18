@@ -13,10 +13,10 @@ from Helper import crawling
 
 
 # start text file include starting papers
-start_file_name = 'start'
+start_file_name = 'start_papers_URLs'
 
 # output file
-json_file_name = 'pages_information'
+json_file_name = 'output_crawled'
 
 # number of paper for crawling
 _numOf_paper = 320
